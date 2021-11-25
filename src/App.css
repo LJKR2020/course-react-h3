@@ -9,3 +9,19 @@ body {
     padding: 20px;
     border-radius: 5px;
 }
+
+label {
+    display: block;
+    margin: 10px;
+}
+
+#firstName, #age {
+    margin-left: 10px;
+}
+
+textarea {
+    padding: 10px;
+    max-width: 100%;
+    border-radius: 5px;
+    border: 1px solid hsl(0, 2%, 75%);
+}

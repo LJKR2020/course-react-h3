@@ -40,15 +40,16 @@ function App() {
                     <form>
                         <label htmlFor='message'>
                             Opmerkingen:
-                            <input
-                                type='text'
-                                id='message'
-                                name='message'
-                                placeholder='Typ hier uw bericht.'
-                                value={messageValue}
-                                onChange={(e) => setMessageValue(e.target.value)}
-                            />
                         </label>
+                        <textarea
+                            type='text'
+                            id='message'
+                            name='message'
+                            placeholder='Typ hier uw bericht.'
+                            value={messageValue}
+                            onChange={(e) => setMessageValue(e.target.value)}
+                        >
+                        </textarea>
                     </form>
                     <form>
                         <label htmlFor='newsletter'>
