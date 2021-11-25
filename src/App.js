@@ -47,7 +47,7 @@ function App() {
                             type='text'
                             id='message'
                             name='message'
-                            placeholder='Typ hier uw bericht.'
+                            placeholder='Wat vond je van het recept?'
                             value={messageValue}
                             onChange={(e) => setMessageValue(e.target.value)}
                         >
