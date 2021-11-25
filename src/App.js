@@ -9,8 +9,8 @@ function App() {
     return (
         <>
             <div className='form-container'>
-                <section className='form-styling'>
-                    <h3>Gegevens</h3>
+                <fieldset className='form-styling'>
+                    <legend id='formTitle'>Gegevens</legend>
                     <form>
                         <label htmlFor='firstName'> Naam:
                             <input
@@ -34,9 +34,11 @@ function App() {
                             />
                         </label>
                     </form>
-                </section>
-                <section className='form-styling'>
-                    <h3 className='review'>Jouw review</h3>
+                </fieldset>
+                <fieldset className='form-styling'>
+                        <legend id='formTitle'>
+                            Jouw review
+                        </legend>
                     <form>
                         <label htmlFor='message'>
                             Opmerkingen:
@@ -69,7 +71,7 @@ function App() {
                     >
                         Versturen
                     </button>
-                </section>
+                </fieldset>
             </div>
         </>
     );

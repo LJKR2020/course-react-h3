@@ -1,4 +1,5 @@
 body {
+    font-family: Verdana, sans-serif;
     display: flex;
     flex-direction: row;
 }
@@ -17,6 +18,10 @@ label {
 
 #firstName, #age {
     margin-left: 10px;
+}
+
+#formTitle {
+    font-weight: bold;
 }
 
 textarea {
